@@ -18,7 +18,7 @@
 }
 
 .logo{
-    background: url("amazon_logo.png");
+    background-image: url("amazon_logo.png");
     background-size: cover;
     height: 50px;
     width: 100%;
@@ -28,7 +28,7 @@
     border: 1.5px solid transparent;
 }
 
-.border{
+.border:hover{
     border: 1.5px solid white;
 }
 
