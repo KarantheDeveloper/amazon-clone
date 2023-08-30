@@ -200,6 +200,7 @@ span{
     display: flex;
     justify-content: center;
     align-items: flex-end;
+    cursor: pointer;
 }
 
 .hero-msg{
@@ -216,7 +217,14 @@ span{
 
 .hero-msg a{
     color: #007185;
+    text-decoration: none;
 }
+
+.hero-msg a:hover{
+    text-decoration: underline;
+}
+
+
 
 /* shop-section */
 
@@ -241,6 +249,7 @@ span{
     margin-top: 1rem;
     margin-bottom: 1rem;
     display: flex;
+    cursor: pointer;
 }
 
 .box-content{
@@ -250,6 +259,7 @@ span{
 
 .box-content p{
     color: #007185;
+    cursor: pointer;
 }
 
 .box-content p:hover{
@@ -307,4 +317,99 @@ span{
 
 .box6{
     margin: 1rem 0rem;
+}
+
+/* box 8 */
+.box8{
+    margin: 1rem 0rem;
+}
+
+.img-box{
+    display: flex;
+    width: 270px;
+    height: 230px;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.box8-img{
+    width: 140px;
+    height: 230px;
+}
+
+.box-content2{
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.description{
+    display: grid;
+    margin: 8px 0px;
+    cursor: pointer;
+}
+
+.first-line{
+    display: flex;
+    font-size: 14px;
+}
+.discount{
+    background-color: #CC0C39;
+    color: white;
+    padding: 4px 6px;
+    border-radius: 2px;
+}
+
+.time{
+    color: #CC0C39;
+    padding: 4px 6px;
+    font-weight: 600;
+}
+
+.second-line{
+    display: flex;
+    margin-top: 8px;
+}
+.dollor{
+    font-size: 10px;
+    color: #0F1111;
+}
+
+.price{
+    font-size: 17px;
+    color: #0F1111;
+}
+
+.old-price{
+    margin-left: 5px;
+    font-size: 12px;
+    color: #565959;
+    margin-top: 4px;
+}
+
+.cross-price{
+    font-size: 10px;
+    margin: 6px 0px 0px 3px;
+    color: #565959;
+}
+
+.third-line{
+    margin-top: 8px;
+}
+
+.productName{
+    font-size: 15px;
+    color: #0F1111;
+}
+
+.shop-button{
+    color: #007185;
+    cursor: pointer;
+    margin-top: 3rem;
+}
+
+.shop-button:hover{
+    color: rgb(209, 142, 7);
 }
